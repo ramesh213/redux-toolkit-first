@@ -14,11 +14,11 @@ function App() {
   return (
     <>
       <div className=" w-[500px] h-[400px] bg-slate-400 gap-10 mx-auto rounded-md">
-        <h1 className="pt-20 text-5xl bold">Counter: {count}</h1>
+        <h1 className="pt-20 text-5xl bold text-yellow-800">Counter: {count}</h1>
         <div className=" flex mt-10 items-center justify-center space-around">
-        <button onClick={() => dispatch(increment())} className="m-2 w-30 text-white bg-slate-800 p-2 rounded-lg">Increment</button>
-        <button onClick={() => dispatch(decrement())} className="m-2 w-30 text-white bg-slate-800 p-2 rounded-lg">Decrement</button>
-        <button onClick={() => dispatch(incrementByAmount(5))} className="w-30 text-white bg-slate-800 p-2 rounded-lg">
+        <button onClick={() => dispatch(increment())} className="m-2 w-30 text-gray-400 bg-slate-800 p-2 rounded-lg">Increment</button>
+        <button onClick={() => dispatch(decrement())} className="m-2 w-30 text-gray-400 bg-slate-800 p-2 rounded-lg">Decrement</button>
+        <button onClick={() => dispatch(incrementByAmount(5))} className="w-30 text-gray-400 bg-slate-800 p-2 rounded-lg">
           Increment by 5
         </button>
         </div>
